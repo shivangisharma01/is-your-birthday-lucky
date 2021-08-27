@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+:root {
+  --primary-dark-lime: #bef264;
+  --primary-lime: #65a30d;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+    margin: 0px;
+}
+#bg {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+  background-color: #9ce223; 
+}
+
+#app-container {
+    background-color: var(--primary-dark-lime);
+    width: 30em;
+    height: 39rem;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 11rem;
+    padding-top: 2rem;
+    display: flex block;
+    color: var(--primary-lime);
+    border-radius: 0.8rem ;
+}
+
+h1 {
+  text-align: center;
+  margin: 2rem;
+}
+
+.container {
+  width: 300px;
+  margin: auto;
+}
+
+input,
+label {
+  display: block;
+  padding: 1rem 1rem;
+  font-weight: bolder;
+}
+
+input {
+  margin-bottom: 0.5rem;
+  width: 100%;
+}
+
+#check-number {
+  display: block;
+  margin: auto;
+  background: transparent;
+  color: var(--primary-lime);
+  border-color: var(--primary-lime);
+  border-width: medium;
+  padding: 0.5rem;
+  border-radius: 0.25rem;
+  font-weight: bolder;
+}
+#output-box {
+  font-weight: bolder;
+  margin: 1.2rem;
+  text-align: center;
+}
+#footer {
+  text-align: center;
+  background-color: var(--primary-lime);
+  color: #bef264;
+  margin-top: 3rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+ 
+  }
+
+
+  .social-link{
+    text-decoration: none;
+    margin: 0rem 0.5rem;
+    color: var(--primary-color);
+}
+
+    .container {
+    text-align: center;
+    padding: 1rem  2rem ;
+    max-width: 70%;
+    margin: auto;
+    border-radius: 2rem;
+    border-width: 10px;
+    border-color: black;
+    background-color: var(--primary-color);
+    
+}
+
+
+
+
