@@ -31,4 +31,4 @@ function calculateSum(dob) {
 
 checkNumberButton.addEventListener("click", checkBirthDateIsLucky);
 
-// alert("Privacy Policy-Your data is not collected!");
+alert("Privacy Policy-Your data is not collected!");
